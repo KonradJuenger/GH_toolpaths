@@ -1,5 +1,7 @@
 # Toolpaths
 
+## STILL IN DEVELOPMENT / NO CODE / NO PACKAGE
+
 Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goal is to enable new ways of 3D printing and CNC milling while giving novices and experts alike  full control of the machines movement.
 
 
@@ -32,3 +34,12 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 - LinuxCNC-flavor G-code compiler
 
 
+#### Installation 
+
+...  get it from yak 
+...  get a key 
+...  install the key
+
+#### Getting started
+
+[FDM](Docs/intrFDM_Overview.md)

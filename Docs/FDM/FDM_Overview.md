@@ -8,7 +8,7 @@ A typical FDM workflow in Grasshopper is built from the components below. Togeth
 - **FDM Toolpath** - Translates Grasshopper geometry into a toolpath object the downstream tools can process.
 - **FDM Operation** (optional) - Groups multiple toolpaths, so you can manage shared settings once and apply them to every input toolpath.
 - **FDM Modulator** - Adjusts specific aspects of a toolpath or operation, such as extrusion flow or speed, along its length.
-- **FDM Machine** - Compiles the configured operations and toolpaths into a single program that matches your printer.
+- **FDM Machine** - Compiles the configured operations and toolpaths into a single program.
 - **FDM Defaults** - Stores global configuration such as start/end G-code snippets and other common printer settings.
-- **FDM Simulator** - Runs the program virtually and previews the resulting mesh directly in the Rhino viewport.
+- **FDM Simulator** - Simulates the program and previews the resulting mesh in the Rhino viewport.
 - **FDM G-code** - Exports the final, printer-ready G-code to a file or uploads it straight to the machine.
