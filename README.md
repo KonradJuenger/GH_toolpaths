@@ -38,8 +38,8 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 ...  get it from yak 
 ...  get a key 
-...  install the key
+...  install the key 
 
 #### Getting started
 
-[FDM](Docs/intrFDM_Overview.md)
+[FDM](Docs/FDM_Overview.md)
