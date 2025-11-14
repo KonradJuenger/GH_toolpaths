@@ -46,9 +46,18 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 2. restart Rhino and enter a license key or add a license key to your rhino account. Currently Beta testers get a key via email, after the beta check juengerkuehn.com/toolpaths for futher information. See [Licensing ](Docs/CORE/licensing.md)for details on the different licensing modes available.
 
-#### Getting Started
+#### Quickstart and Features
 
-[FDM](Docs/FDM/FDM_Overview.md)
+<figure>
+<img src="Images/Rhino_c4XbruyvUU.avif" alt="">
+<figcaption>right click components to reveal parameters</figcaption>
+</figure>
+
+
+
+
+
+
 
 #### Changelog
 
