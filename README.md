@@ -44,65 +44,16 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 #### overview ui 
 
+|                                                                                     |                                                                                                      |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| <img src="Images/Rhino_c4XbruyvUU.avif" alt="" style="max-width:100%;height:auto;"> | right click components to reveal parameters.                                                         |
+| <img src="Images/Rhino_1zHBruW1qc.avif" alt="" style="max-width:100%;height:auto;"> | Toolpaths objects are geometry. you can transform them with the standart grasshopper components. (move, array, transform ...) |
+| <img src="Images/Rhino_6G4t7lFxec.avif" alt="" style="max-width:100%;height:auto;"> | use **Toolpaths Generators** to create vasemode prints or infill                                     |
+| <img src="Images/Rhino_IU8lO9lQS6.avif" alt="" style="max-width:100%;height:auto;"> | use **Toolpaths Modulators** to varie different parameters per segment like speed, flow, displacement |
+| <img src="Images/Rhino_e2WsY8M4wt.avif" alt="" style="max-width:100%;height:auto;"> | combine Modulators with **Masks** to restrict the effect to specific regions or along a gradient     |
+| <img src="Images/Rhino_urHorfmCqV.avif" alt="" style="max-width:100%;height:auto;"> | **Toolpath Operations** allows to group individual toolpath into one element. right click it to set parameters for the whole operatio |
+
 #### Changelog
-<div style="background:white; max-width:100%;">
-
-  <div style="display:flex; align-items:flex-start; border-bottom:1px solid #ddd; padding:8px 0;">
-    <div style="flex:0 0 200px;">
-      <img src="Images/Rhino_c4XbruyvUU.avif" style="max-width:100%; height:auto;">
-    </div>
-    <div style="flex:1; padding-left:16px;">
-      right click components to reveal parameters.
-    </div>
-  </div>
-
-  <div style="display:flex; align-items:flex-start; border-bottom:1px solid #ddd; padding:8px 0;">
-    <div style="flex:0 0 200px;">
-      <img src="Images/Rhino_1zHBruW1qc.avif" style="max-width:100%; height:auto;">
-    </div>
-    <div style="flex:1; padding-left:16px;">
-      Toolpaths objects are geometry. You can transform them with standard Grasshopper components.
-    </div>
-  </div>
-
-  <div style="display:flex; align-items:flex-start; border-bottom:1px solid #ddd; padding:8px 0;">
-    <div style="flex:0 0 200px;">
-      <img src="Images/Rhino_6G4t7lFxec.avif" style="max-width:100%; height:auto;">
-    </div>
-    <div style="flex:1; padding-left:16px;">
-      Use <b>Toolpaths Generators</b> to create vasemode prints or infill.
-    </div>
-  </div>
-
-  <div style="display:flex; align-items:flex-start; border-bottom:1px solid #ddd; padding:8px 0;">
-    <div style="flex:0 0 200px;">
-      <img src="Images/Rhino_IU8lO9lQS6.avif" style="max-width:100%; height:auto;">
-    </div>
-    <div style="flex:1; padding-left:16px;">
-      Use <b>Toolpaths Modulators</b> to vary parameters per segment like speed, flow, displacement.
-    </div>
-  </div>
-
-  <div style="display:flex; align-items:flex-start; border-bottom:1px solid #ddd; padding:8px 0;">
-    <div style="flex:0 0 200px;">
-      <img src="Images/Rhino_e2WsY8M4wt.avif" style="max-width:100%; height:auto;">
-    </div>
-    <div style="flex:1; padding-left:16px;">
-      Combine Modulators with <b>Masks</b> to restrict effects to regions or gradients.
-    </div>
-  </div>
-
-  <div style="display:flex; align-items:flex-start; padding:8px 0;">
-    <div style="flex:0 0 200px;">
-      <img src="Images/Rhino_urHorfmCqV.avif" style="max-width:100%; height:auto;">
-    </div>
-    <div style="flex:1; padding-left:16px;">
-      <b>Toolpath Operations</b> allow grouping toolpaths into one object. Right-click to edit parameters.
-    </div>
-  </div>
-
-</div>
-
 
 ###### 0.1.5-alpha6
 
