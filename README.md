@@ -43,15 +43,62 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 1. restart Rhino and enter a license key or add a license key to your rhino account. Currently Beta testers get a key via email, after the beta check juengerkuehn.com/toolpaths for futher information. See [Licensing ](Docs/CORE/licensing.md)for details on the different licensing modes available.
 
 #### overview ui 
+<table style="border-collapse: collapse; width: 100%;">
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 8px;">
+      <img src="Images/Rhino_c4XbruyvUU.avif" style="max-width:100%; height:auto;">
+    </td>
+    <td style="padding: 8px;">
+      right click components to reveal parameters.
+    </td>
+  </tr>
 
-|                                                                                     |                                                                                                      |
-| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| <img src="Images/Rhino_c4XbruyvUU.avif" alt="" style="max-width:100%;height:auto;"> | right click components to reveal parameters.                                                         |
-| <img src="Images/Rhino_1zHBruW1qc.avif" alt="" style="max-width:100%;height:auto;"> | Toolpaths objects are geometry. you can transform them with the standart grasshopper components. (move, array, transform ...) |
-| <img src="Images/Rhino_6G4t7lFxec.avif" alt="" style="max-width:100%;height:auto;"> | use **Toolpaths Generators** to create vasemode prints or infill                                     |
-| <img src="Images/Rhino_IU8lO9lQS6.avif" alt="" style="max-width:100%;height:auto;"> | use **Toolpaths Modulators** to varie different parameters per segment like speed, flow, displacement |
-| <img src="Images/Rhino_e2WsY8M4wt.avif" alt="" style="max-width:100%;height:auto;"> | combine Modulators with **Masks** to restrict the effect to specific regions or along a gradient     |
-| <img src="Images/Rhino_urHorfmCqV.avif" alt="" style="max-width:100%;height:auto;"> | **Toolpath Operations** allows to group individual toolpath into one element. right click it to set parameters for the whole operatio |
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 8px;">
+      <img src="Images/Rhino_1zHBruW1qc.avif" style="max-width:100%; height:auto;">
+    </td>
+    <td style="padding: 8px;">
+      Toolpaths objects are geometry. You can transform them with standard Grasshopper components.
+    </td>
+  </tr>
+
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 8px;">
+      <img src="Images/Rhino_6G4t7lFxec.avif" style="max-width:100%; height:auto;">
+    </td>
+    <td style="padding: 8px;">
+      Use <b>Toolpaths Generators</b> to create vasemode prints or infill.
+    </td>
+  </tr>
+
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 8px;">
+      <img src="Images/Rhino_IU8lO9lQS6.avif" style="max-width:100%; height:auto;">
+    </td>
+    <td style="padding: 8px;">
+      Use <b>Toolpaths Modulators</b> to vary parameters per segment like speed, flow, displacement.
+    </td>
+  </tr>
+
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 8px;">
+      <img src="Images/Rhino_e2WsY8M4wt.avif" style="max-width:100%; height:auto;">
+    </td>
+    <td style="padding: 8px;">
+      Combine Modulators with <b>Masks</b> to restrict effects to regions or gradients.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 8px;">
+      <img src="Images/Rhino_urHorfmCqV.avif" style="max-width:100%; height:auto;">
+    </td>
+    <td style="padding: 8px;">
+      <b>Toolpath Operations</b> allow grouping toolpaths into one object. Right-click to edit parameters.
+    </td>
+  </tr>
+</table>
+
 
 #### Changelog
 
