@@ -55,6 +55,13 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 #### Changelog
 
+###### 0.1.6-alpha7
+- async upload to printer
+- refactor of vasemode layerheight 
+- introduction of layerheight generator: creates a layerheights based on slope 
+- better default values
+- licensing popup when license is expired 
+
 ###### 0.1.5-alpha6
 
 - option to disable licensing , plugin will not try to load automatically until licensing is enabled
