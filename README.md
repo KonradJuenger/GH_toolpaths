@@ -55,6 +55,12 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 #### Changelog
 
+###### 0.1.8-alpha9
+- icons
+- curve divider respects closed/open state
+- walls generator reworked to suppress duplicate control points
+- introduction of simplyfy curve component
+
 ###### 0.1.7-alpha8
 - planar slicer component: generates planar curves for "normal" printing
 - bugfix in walls generator: holes are offest correctly
