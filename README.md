@@ -55,7 +55,8 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 #### Changelog
 
-
+###### 0.1.10-alpha11
+- significant perf improvements in fdm program generation and simulation
 
 ###### 0.1.9-alpha10
 
