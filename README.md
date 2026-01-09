@@ -51,9 +51,11 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 | <img src="Images/Rhino_6G4t7lFxec.avif" alt="" style="max-width:100%;height:auto;"> | use **Toolpaths Generators** to create vasemode prints or infill                                     |
 | <img src="Images/Rhino_IU8lO9lQS6.avif" alt="" style="max-width:100%;height:auto;"> | use **Toolpaths Modulators** to varie different parameters per segment like speed, flow, displacement |
 | <img src="Images/Rhino_e2WsY8M4wt.avif" alt="" style="max-width:100%;height:auto;"> | combine Modulators with **Masks** to restrict the effect to specific regions or along a gradient     |
-| <img src="Images/Rhino_urHorfmCqV.avif" alt="" style="max-width:100%;height:auto;"> | **Toolpath Operations** allows to group individual toolpath into one element. right click it to set parameters for the whole operatio |
+| <img src="Images/Rhino_urHorfmCqV.avif" alt="" style="max-width:100%;height:auto;"> | **Toolpath Operations** allows to group individual toolpath into one element. right click it to set parameters for the whole operation |
 
 #### Changelog
+###### 0.1.12-alpha13
+- toolpaths now has an icon
 
 ###### 0.1.12-alpha13 ( unrealeased )
 - Infill Generator : robust handling for disjoint regions
@@ -70,6 +72,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 - icons for parameters
 - deconstruct toolpath features hidden outputs for clarity
 - color component features hidden inputs
+- vms now should default to 2 for all modulators
 
 
 ###### 0.1.10-alpha11
