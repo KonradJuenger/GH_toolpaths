@@ -66,6 +66,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 - icons for parameters
 - deconstruct toolpath features hidden outputs for clarity
 - color component features hidden inputs
+- vms now should default to 2 for all modulators
 
 
 ###### 0.1.10-alpha11
