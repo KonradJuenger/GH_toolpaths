@@ -60,6 +60,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 ###### 0.1.13-alpha14 ( unrealeased )
 - Infill Generator : robust handling for disjoint regions
 - Infill Generator :  Start Point is now hidden ; right click to reveal
+- smart selector for extrusion mode based on available inputs 
 
 ###### 0.1.12-alpha13
 - toolpaths now has an icon
