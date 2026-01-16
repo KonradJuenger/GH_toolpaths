@@ -40,7 +40,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
    - check **include prerelease**
    - currently package manager on **Rhino for Mac** is broken, update to the current Release candiate > **Rhino 8 SR25 Release Candidate 2** 
-2. restart Rhino and enter a license key or add a license key to your rhino account. Currently TOOLPATHS is in closed Beta
+2. restart Rhino and enter a license key or add a license key to your rhino account. Currently TOOLPATHS is in closed Beta. We are beta testing with a small team of dedicated designers and fabricators. If you want to contribute ask for a key at toolpaths@juengerkuehn.com
 
 #### overview ui 
 
