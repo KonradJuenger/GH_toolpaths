@@ -1,6 +1,6 @@
 # Toolpaths
 
-## -- STILL IN DEVELOPMENT --
+## -- STILL IN DEVELOPMENT -- closed beta release--
 
 Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goal is to enable new ways of 3D printing and CNC milling while giving novices and experts alike  full control of the machines movement.
 
@@ -40,7 +40,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
    - check **include prerelease**
    - currently package manager on **Rhino for Mac** is broken, update to the current Release candiate > **Rhino 8 SR25 Release Candidate 2** 
-1. restart Rhino and enter a license key or add a license key to your rhino account. Currently Beta testers get a key via email, after the beta check juengerkuehn.com/toolpaths for futher information. See [Licensing ](Docs/CORE/licensing.md)for details on the different licensing modes available.
+2. restart Rhino and enter a license key or add a license key to your rhino account. Currently TOOLPATHS is in closed Beta
 
 #### overview ui 
 
@@ -55,8 +55,15 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 #### Changelog
 
+###### 0.2.0-beta0 
+- mesh smoothing 
+- refactored infill and wall generator
+- modulators accepts linear curves
+- demo files
+- volume component to calculate the extrusion area based on width / height
+- static mode more performant
 
-###### 0.1.14-alpha15 (unreleased)
+###### 0.1.14-alpha15 
 - fdm machine flattens toolpath input
 - uv scaling input  for better textures flow along the extrusion
 - bugfixes for preview
