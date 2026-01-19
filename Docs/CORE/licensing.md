@@ -11,7 +11,7 @@ TOOLPATHS has two licensing options:
 
 
 
-### How to install and add your Cloud Zoo license
+## How to install and add your Cloud Zoo license
 
 1. in Rhino: open package manager by running "_PackageManager"
 2. check "include pre-releases" and search for "toolpaths", then install
@@ -32,7 +32,10 @@ TOOLPATHS has two licensing options:
 
 
 
-### How to install and add your local or trail  license
+
+
+
+## How to install and add your local or trail  license
 
 1. in Rhino: open package manager by running "_PackageManager"
 2. check "include pre-releases" and search for "toolpaths", then install
