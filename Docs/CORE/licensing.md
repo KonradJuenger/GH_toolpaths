@@ -16,7 +16,6 @@ For organisations we can offer volume licensing that can run on multiple PCs. Th
    <img src="/Images/ddd0cBWrSU-1.png" width="50%"> 
 
 
-   ![ddd0cBWrSU.png](/Images/ddd0cBWrSU-1.png)
 4. a popup opens, choose **Cloud Zoo** and **continue**
-
-   ![EPcFJQI2UI.png](/Images/EPcFJQI2UI.png)
+    <img src="/Images/EPcFJQI2UI.png" width="50%"> 
+   
