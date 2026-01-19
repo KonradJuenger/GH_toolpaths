@@ -36,10 +36,12 @@ TOOLPATHS has two licensing options:
 
 1. in Rhino: open package manager by running "_PackageManager"
 2. check "include pre-releases" and search for "toolpaths", then install
+
     <img src="/Images/ddd0cBWrSU-1.png" width="33%"> 
 3. the toolpaths licensing popup opens, choose 
     1. **local license** 
     2. paste your key 
     3. save it
     4. continue
-<img src="/Images/MDPbSSRadw-1.png" width="33%"> 
+
+<img src="/Images/MDPbSSRadw.png" width="33%"> 
