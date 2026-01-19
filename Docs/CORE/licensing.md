@@ -9,7 +9,7 @@ TOOLPATHS has two licensing options:
 
    This option is intended for organisations and supports volume licenses that can run on multiple PCs. It is also used for trial licenses
 
-## 1. Install TOOLPATHS
+##  Install TOOLPATHS
 
 1. In Rhino: open the Package Manager by running `_PackageManager`.
 2. Check **Include pre-releases** and search for **Toolpaths**, then install it.
