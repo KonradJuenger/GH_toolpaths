@@ -9,42 +9,40 @@ TOOLPATHS has two licensing options:
 
    This option is intended for organisations and supports volume licenses that can run on multiple PCs. It is also used for trial licenses
 
+## 1. Install TOOLPATHS
 
-
-## How to install and add your Cloud Zoo license
-
-1. in Rhino: open package manager by running "_PackageManager"
-2. check "include pre-releases" and search for "Toolpaths", then install
+1. In Rhino: open the Package Manager by running `_PackageManager`.
+2. Check **Include pre-releases** and search for **Toolpaths**, then install it.
 
    <img src="/Images/ddd0cBWrSU-1.png" width="33%"> 
-3. the Toolpaths licensing popup opens, choose **Cloud Zoo** and **continue**
 
-    <img src="/Images/EPcFJQI2UI.png" width="33%"> 
-4. the rhino licensing popup opens, select "add license"
+##  Add your Cloud Zoo license
+
+After installing TOOLPATHS, the Toolpaths licensing popup opens:
+
+1. Choose **Cloud Zoo** and click **Continue**.
+
+   <img src="/Images/EPcFJQI2UI.png" width="33%"> 
+
+2. The Rhino licensing popup opens; select **Add license**.
 
    <img src="/Images/RKo60iZ6pc.png" width="33%"> 
-5. your browser should open, requesting to add a license to your account
+
+3. Your browser opens, asking you to add a license to your Rhino account.
 
    <img src="/Images/fwgwV4lnkA.png" width="33%"> 
-6. go back to Rhino and press "try again". Rhino should now fetch the license from Cloud Zoo
+
+4. Go back to Rhino and press **Try again**. Rhino should now fetch the license from Cloud Zoo.
 
    <img src="/Images/fDlRxXSiiT.png" width="33%"> 
 
+##  Add your local or trial license
 
+After installing TOOLPATHS, the Toolpaths licensing popup opens:
 
+1. Choose **Local license**.
+2. Paste your key.
+3. Save it.
+4. Click **Continue**.
 
-
-
-## How to install and add your local or trial license
-
-1. in Rhino: open package manager by running "_PackageManager"
-2. check "include pre-releases" and search for "Toolpaths", then install
-
-    <img src="/Images/ddd0cBWrSU-1.png" width="33%"> 
-3. the Toolpaths licensing popup opens, choose 
-    1. **local license** 
-    2. paste your key 
-    3. save it
-    4. continue
-
-<img src="/Images/MDPbSSRadw.png" width="33%">
+   <img src="/Images/MDPbSSRadw.png" width="33%">
