@@ -13,8 +13,11 @@ For organisations we can offer volume licensing that can run on multiple PCs. Th
 1. in Rhino: open package manager by running "_PackageManager"
 2. check "include pre-releases" and search for "toolpaths", then install
 
+   <div style="display: flex;">
+     <img src="/Images/ddd0cBWrSU-1.png" alt="Placeholder" style=" max-height: 300px;">
+   </div>
+
    ![ddd0cBWrSU.png](/Images/ddd0cBWrSU-1.png)
 3. a popup opens, choose **Cloud Zoo** and **continue**
 
    ![EPcFJQI2UI.png](/Images/EPcFJQI2UI.png)
-
