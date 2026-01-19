@@ -1,11 +1,11 @@
 TOOLPATHS has two licensing options:
 
-1. Cloud Zoo
+1. **Cloud Zoo**
 
    This is used for individual licenses that are managed via CloudZoo. They can be used on all the machines where you logged in with your rhino account. They require perdiodically internet access. 
 
 
-2. Local Licensing / Trail 
+2. **Local Licensing / Trail **
 
    For organisations we can offer volume licensing that can run on multiple PCs. This is also used for the trail license
 
@@ -17,12 +17,16 @@ TOOLPATHS has two licensing options:
 2. check "include pre-releases" and search for "toolpaths", then install
 
    <img src="/Images/ddd0cBWrSU-1.png" width="33%"> 
-3. a popup opens, choose **Cloud Zoo** and **continue**
+3. the toolpaths licensing popup opens, choose **Cloud Zoo** and **continue**
 
     <img src="/Images/EPcFJQI2UI.png" width="33%"> 
-4. your bowser should open, requesting to add a license to your account
+4. the rhino llicensing popup opens, select "add license"
+
+   <img src="/Images/RKo60iZ6pc.png" width="33%"> 
+5. your bowser should open, requesting to add a license to your account
 
    <img src="/Images/fwgwV4lnkA.png" width="33%"> 
-5. go back to Rhino and press continue. Rhino should now fetch the license from cloud zoo
+6. go back to Rhino and press "try again". Rhino should now fetch the license from cloud zoo
 
-   <img src="/Images/YDgeH5AkOD.png" width="33%"> 
+   <img src="/Images/fDlRxXSiiT.png" width="33%"> 
+
