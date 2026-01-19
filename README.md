@@ -55,6 +55,12 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 #### Changelog
 
+
+###### 0.2.3-beta3
+- slicing component now accept mesh input (much faster)
+- baked preview mesh is now split to match the sim time
+- improved stability 
+
 ###### 0.2.2-beta2
 - deconstuct toolpath is now two components: deconstuct CNC and deconstruct FDM
 
