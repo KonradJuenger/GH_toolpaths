@@ -19,7 +19,7 @@ For organisations we can offer volume licensing that can run on multiple PCs. Th
     <img src="/Images/EPcFJQI2UI.png" width="33%"> 
 4. your bowser should open, requesting to add a license to your account
 
-   <img src="/Images/EfwgwV4lnkA.png" width="33%"> 
+   <img src="/Images/fwgwV4lnkA.png" width="33%"> 
 5. go back to Rhino and press continue. Rhino should now fetch the license from cloud zoo
 
    <img src="/Images/YDgeH5AkOD.png" width="33%"> 
