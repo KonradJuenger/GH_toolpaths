@@ -1,6 +1,6 @@
 # Toolpaths
 
-## -- STILL IN DEVELOPMENT -- closed beta release--
+## -- IN DEVELOPMENT -- closed beta release--
 
 Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goal is to enable new ways of 3D printing and CNC milling while giving novices and experts alike  full control of the machines movement.
 
