@@ -35,12 +35,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 - LinuxCNC-flavor G-code compiler
 
 #### Installation
-
-1. install it via packagemanager: [install](rhino://package/search?name=toolpaths) or manually by running `_packagemanager` and then search for **Toolpaths**
-
-   - check **include prerelease**
-   - currently package manager on **Rhino for Mac** is broken, update to the current Release candiate > **Rhino 8 SR25 Release Candidate 2** 
-2. restart Rhino and enter a license key or add a license key to your rhino account. Currently TOOLPATHS is in closed Beta. We are beta testing with a small team of dedicated designers and fabricators. If you want to contribute ask for a key at toolpaths@juengerkuehn.com
+For installation and licensing instructions, please refer to the [Licensing Documentation](Docs/CORE/licensing.md).
 
 #### overview ui 
 
