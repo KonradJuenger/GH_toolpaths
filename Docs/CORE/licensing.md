@@ -46,3 +46,8 @@ After installing TOOLPATHS, the Toolpaths licensing popup opens:
 4. Click **Continue**.
 
    <img src="/Images/MDPbSSRadw.png" width="33%">
+
+
+##  Change your license
+
+run "ToolpathsLicenseMode" in rhino. The license pop-up will open where you can switch between cloud and local, delete local keys or disable licensing all together. When disabled toolpath will not ask for a license until you enable it again.
