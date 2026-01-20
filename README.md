@@ -50,6 +50,10 @@ For installation and licensing instructions, please refer to the [Licensing Docu
 
 #### Changelog
 
+###### 0.2.5-beta5
+- faster slicing 
+- better degen defaults
+
 ###### 0.2.4-beta4
 - slicing component now accept mesh input (much faster)
 - bug fixes
