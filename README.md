@@ -37,6 +37,9 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 #### Installation
 For installation and licensing instructions, please refer to the [Licensing Documentation](Docs/CORE/licensing.md).
 
+#### Beta Testing
+TOOLPATHS is currently in closed beta. We are beta testing with a small team of dedicated designers and fabricators. If you want to contribute, ask for a key at toolpaths@juengerkuehn.com.
+
 #### overview ui 
 
 |                                                                                     |                                                                                                      |
@@ -50,22 +53,16 @@ For installation and licensing instructions, please refer to the [Licensing Docu
 
 #### Changelog
 
-###### 0.2.5-beta5
-- faster slicing 
-- better degen defaults
-
-###### 0.2.4-beta4
-- slicing component now accept mesh input (much faster)
+###### 0.2.1-beta1 to 0.2.6-beta6
 - bug fixes
-
-###### 0.2.3-beta3
+- faster slicing 
+- image map example 
+- better degen defaults
+- issue warnings if extusion is limited by nozzle size
+- slicing component now accept mesh input (much faster)
 - baked preview mesh is now split to match the sim time
 - improved stability 
-
-###### 0.2.2-beta2
 - deconstuct toolpath is now two components: deconstuct CNC and deconstruct FDM
-
-###### 0.2.1-beta1
 - gha loading sequence fix on mac 
 
 ###### 0.2.0-beta0 
