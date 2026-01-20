@@ -57,6 +57,7 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 - bug fixes
 - faster slicing 
 - image map example 
+- variable infill example
 - better degen defaults
 - issue warnings if extusion is limited by nozzle size
 - slicing component now accept mesh input (much faster)
