@@ -53,8 +53,15 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 
 #### Changelog
 
-###### 0.2.1-beta1 to 0.2.6-beta6
+
+
+
+
+###### 0.2.1-beta1 to 0.2.7-beta7
 - bug fixes
+- auto segmentation for curve inputs
+- modulated speeds for no extrude moves will be correctly displayed
+- gcode output to GH only on request
 - faster slicing 
 - image map example 
 - variable infill example
