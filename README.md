@@ -57,7 +57,7 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 
 
 
-###### 0.2.1-beta1 to 0.2.7-beta7
+###### 0.2.1-beta1 to 0.2.8-beta8
 - bug fixes
 - auto segmentation for curve inputs
 - modulated speeds for no extrude moves will be correctly displayed
@@ -72,6 +72,7 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 - improved stability 
 - deconstuct toolpath is now two components: deconstuct CNC and deconstruct FDM
 - gha loading sequence fix on mac 
+- no extrude curves displayed thicker
 
 ###### 0.2.0-beta0 
 - mesh smoothing 
