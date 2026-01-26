@@ -8,18 +8,16 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 - **Object-Oriented Toolpaths**
   The core data type is the Toolpath, which encapsulates a curve with its associated metadata (speed, extrusion, etc.) into a single object.
-
-  Granular Control: Assign parameters per-path or per-segment.
-
-  Native Compatibility: Remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
+  *Granular Control*: Assign parameters per-path or per-segment.
+  *Native Compatibility*: Remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
 
 - **Parameter Hierarchy**
 
-  Settings are managed through a tiered inheritance model to minimize redundant inputs. Values are resolved in a three-level hierarchy: Operation overrides (highest), Toolpath overrides, and Global Defaults (lowest). This structure allows you to define a baseline behavior once and only intervene at the toolpath or operation level when specific settings are required.
+  Settings are resolved in a three-level hierarchy: Operation  (highest), Toolpath , and Global Defaults (lowest). This structure allows you to define a baseline behavior once and only intervene at the toolpath or operation level when specific settings are required.
 
 - **Accurate simulation**
 
-  The FDM engine simulates additive material accumulation rather than just visualizing a mesh pipe. By calculating volume buildup and path overlaps based on actual part coordinates, the solver enables features like automatic flow adjustment.
+  The FDM engine simulates material deposition rather than just visualizing a mesh pipe. By calculating volume buildup the solver enables features like automatic flow adjustment.
 
 #### Features FDM
 
