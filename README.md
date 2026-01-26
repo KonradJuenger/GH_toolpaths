@@ -6,10 +6,10 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 ### Toolpaths principles
 
-- **Object-Oriented Toolpaths**
+- *Object-Oriented Toolpaths*
   The core data type is the Toolpath, which encapsulates a curve with its associated metadata (speed, extrusion, etc.) into a single object.
   
-  **Granular Control**: Assign parameters per-path or per-segment.
+  *Granular Control*: Assign parameters per-path or per-segment.
   
   **Native Compatibility**: Remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
 
