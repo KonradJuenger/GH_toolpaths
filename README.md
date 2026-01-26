@@ -13,7 +13,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
   
   *Native Compatibility*: Remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
 
-- **Parameter Hierarchy**
+- **Settings Hierarchy**
 
   Settings are resolved in a three-level hierarchy: Operation  (highest), Toolpath , and Global Defaults (lowest). This structure allows you to define a baseline behavior once and only intervene at the toolpath or operation level when specific settings are required.
 
