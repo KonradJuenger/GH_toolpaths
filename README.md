@@ -11,7 +11,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
   
   *Granular Control*: Assign parameters per-path or per-segment.
   
-  *Native Compatibility*: Remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
+  *Compatibility*:A Toolpath object remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
 
 - **Settings Hierarchy**
 
@@ -24,7 +24,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 #### Features FDM
 
 - Variable layer height and vase mode slicing.
-- Automatic extrusion width and volume-based flow modes.
+- Automatic extrusion width calculation and volume-based extrusion modes.
 - Generator Components for infill and walls 
 - Modulators: Per-vertex control of extrusion prarmeters like flow, speed, etc
 - Masking: Filters to isolate modulator effects to specific sections of a toolpath.
