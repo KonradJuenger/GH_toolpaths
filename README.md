@@ -2,31 +2,39 @@
 
 ## -- IN DEVELOPMENT -- closed beta release--
 
-Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goal is to enable new ways of 3D printing and CNC milling while giving novices and experts alike  full control of the machines movement.
+Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goal is to enable new ways of 3D printing and CNC milling while giving novices and experts alike full control of the machines movement.
 
 ### Toolpaths principles
 
-- **Smart Geometry**
+- **Object-Oriented Toolpaths**
+  The core data type is the Toolpath, which encapsulates a curve with its associated metadata (speed, extrusion, etc.) into a single object.
 
-  A Toolpath groups a curve and its parameters into a single geometric object. This lets you vary settings like speed or extrusion per path or per segment. Because it stays a standard Grasshopper geometry, it can still be transformed by regular components.
-- **Progressive complexity**
+  Granular Control: Assign parameters per-path or per-segment.
 
-  Settings are optional and stay out of the way until you need them. A clear hierarchy lets you define values at three levels: Defaults (lowest), Toolpath, and Operation (highest). Set a global default once, override it on a few toolpaths, or apply changes to an entire operation without duplicating inputs.
+  Native Compatibility: Remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
+
+- **Parameter Hierarchy**
+
+  Settings are managed through a tiered inheritance model to minimize redundant inputs. Values are resolved in a three-level hierarchy: Operation overrides (highest), Toolpath overrides, and Global Defaults (lowest). This structure allows you to define a baseline behavior once and only intervene at the toolpath or operation level when specific settings are required.
+
 - **Accurate simulation**
 
-  FDM is simulated as real material accumulation in world space — overlapping paths are reflected in the result. CNC simulation models material removal with high resolution. Both focus on fidelity and performance to provide reliable previews before you generate G-code.
+  The FDM engine simulates additive material accumulation rather than just visualizing a mesh pipe. By calculating volume buildup and path overlaps based on actual part coordinates, the solver enables features like automatic flow adjustment.
 
 #### Features FDM
 
-- advanced preview that simulates the extrusion process
-- value modulators to adjust flow, speed and other parameters per vertex
-- modulator masking to further control surface effects
-- Klipper, Reprap (Duet), Octoprint remote Gcode upload
-- Z-hop and safe-Z handling
-- retractions
-- Bed mesh compensation and TCP offsets
-- Temperature control 
-- Absolute/relative E support
+- Variable layer height and vase mode slicing.
+- Automatic extrusion width and volume-based flow modes.
+- Generator Components for infill and walls 
+- Modulators: Per-vertex control of extrusion prarmeters like flow, speed, etc
+- Masking: Filters to isolate modulator effects to specific sections of a toolpath.
+- Path optimization via TSP sorting and dynamic segment extensions.
+- Real-time playback of the simulation
+- UV-mapped output meshes for rendering 
+- Z-hop and retractions
+- Gcode upload for Klipper, RepRap, and Octoprint.
+
+
 
 #### Features CNC ( aviable for beta testers)
 
