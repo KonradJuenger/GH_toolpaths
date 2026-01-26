@@ -28,7 +28,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 - Generator Components for infill and walls 
 - Modulators: Per-vertex control of extrusion prarmeters like flow, speed, etc
 - Masking: Filters to isolate modulator effects to specific sections of a toolpath.
-- Path optimization via TSP sorting and dynamic segment extensions.
+- Path optimization via TSP sorting 
 - Real-time playback of the simulation
 - UV-mapped output meshes for rendering 
 - Z-hop and retractions
@@ -36,7 +36,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 
 
-#### Features CNC ( aviable for beta testers)
+#### Features CNC ( future release)
 
 - LinuxCNC and Fusion 360 tool library support with tool/holder visualization
 - High-performance stock removal simulation
