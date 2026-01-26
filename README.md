@@ -4,14 +4,14 @@
 
 Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goal is to enable new ways of 3D printing and CNC milling while giving novices and experts alike full control of the machines movement.
 
-### Toolpaths principles
+### Toolpaths core features
 
 - **Object-Oriented Toolpaths**
   The core data type is the Toolpath, which encapsulates a curve with its associated metadata (speed, extrusion, etc.) into a single object.
   
   *Granular Control*: Assign parameters per-path or per-segment.
   
-  *Compatibility*:A Toolpath object remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
+  *Compatibility*: A Toolpath object remains a standard Grasshopper geometry type, allowing you to use native components for transformations without losing metadata.
 
 - **Settings Hierarchy**
 
