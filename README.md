@@ -36,7 +36,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
 
 
-#### Features CNC ( future release)
+#### Features CNC (currently not publicly available)
 
 - LinuxCNC and Fusion 360 tool library support with tool/holder visualization
 - High-performance stock removal simulation
