@@ -65,10 +65,7 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 ###### 0.2.9-beta9 (unreleased)
 
 - Renamed "Initial Z Height" to Safe Clearance: Max(CurrentZ + Clearance, Clearance) logic
-- renaming in  fdm defaults: 
-      StartG → startG-Code
-      EndG → endG-Code
-      EPos → ExtruderMode
+- renaming in fdm defaults: StartG → startG-Code, EndG → endG-Code, EPos → ExtruderMode
 - vector field modulator: max radius input for localised changes
 - fmd simulator: outputs overall program time in human readable format: HH:mm:ss
 
