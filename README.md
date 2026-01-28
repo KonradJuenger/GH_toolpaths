@@ -62,12 +62,14 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 #### Changelog
 
 
-###### 0.2.9-beta9 (unreleased)
+###### 0.2.9-beta9 
 
+- non-planar example
 - Renamed "Initial Z Height" to Safe Clearance: Max(CurrentZ + Clearance, Clearance) logic
 - renaming in fdm defaults: StartG → startG-Code, EndG → endG-Code, EPos → ExtruderMode
-- vector field modulator: max radius input for localised changes
 - fdm simulator: outputs overall program time in human readable format: HH:mm:ss
+- vector field modulator: replaced IDW with Gaussian for smoother,  displacement at anchor points
+- vector field modulator: introduced per-point "Sigma" radius for individual influence control (removed redundant Falloff)
 
 
 ###### 0.2.1-beta1 to 0.2.8-beta8
