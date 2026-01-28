@@ -17,7 +17,7 @@ Toolpaths is a Grasshopper plugin for generating and simulating G-code. It's goa
 
   Settings are resolved in a three-level hierarchy: Operation  (highest), Toolpath , and Global Defaults (lowest). This structure allows you to define a baseline behavior once and only intervene at the toolpath or operation level when specific settings are required.
 
-- **Accurate simulation**
+- **Simulation**
 
   The FDM engine simulates material deposition rather than just visualizing a mesh pipe. By calculating volume buildup the solver enables features like automatic flow adjustment.
 
@@ -67,7 +67,7 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 - Renamed "Initial Z Height" to Safe Clearance: Max(CurrentZ + Clearance, Clearance) logic
 - renaming in fdm defaults: StartG → startG-Code, EndG → endG-Code, EPos → ExtruderMode
 - vector field modulator: max radius input for localised changes
-- fmd simulator: outputs overall program time in human readable format: HH:mm:ss
+- fdm simulator: outputs overall program time in human readable format: HH:mm:ss
 
 
 ###### 0.2.1-beta1 to 0.2.8-beta8
