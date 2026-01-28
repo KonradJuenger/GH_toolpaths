@@ -63,8 +63,7 @@ TOOLPATHS is currently in closed beta. We are beta testing with a small team of 
 
 ###### 0.2.10-beta10 (unreleased)
 - output for robots (requires robots plugin by visose)
-
-
+- smooth rim modulator
 
 ###### 0.2.9-beta9 
 
