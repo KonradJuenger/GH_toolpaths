@@ -37,7 +37,9 @@ The FDM engine simulates material deposition rather than just visualizing a mesh
 ### Installation + Licensing
 
 - run `_PackageManager`  > check include Pre-Releases > search for TOOLPATHS > install
-- choose trial or cloud key > paste your key  > activate it
+- the licensing dialog opens with **License key — local or trial** selected
+- paste your trial, standalone, or volume key and click **Activate license**
+- alternatively, choose **Rhino account — Cloud Zoo** and click **Continue with Rhino**
 
 For more details, please refer to the [Licensing Documentation](Docs/CORE/licensing.md).
 
@@ -52,6 +54,14 @@ For more details, please refer to the [Licensing Documentation](Docs/CORE/licens
 - **FDM Processor:** combines all toolpaths and settings into one program that is past to simulation or gcode output
 - **FDM Simulator:** creates a mesh preview
 - **FDM G-Code Output:** compiles the final G-Code and uploads it to the printer
+
+## Preview and Simulation
+
+TOOLPATHS runs the simulation in the background, so the Grasshopper canvas stays interactive. Changes to the program trigger a new solution. There are three modes, selectable at the **Processor Mode** input of the **FDM Processor**:
+
+1. **Hybrid (default):** Shows a fast mesh preview first, then replaces it with the full simulation when it is ready. Export outputs become available after the full simulation finishes.
+2. **Preview:** Builds only the fast mesh preview for quick iteration. G-code, robot and other export outputs are not available in this mode.
+3. **Simulation:** Runs the full heightfield-based simulation and provides all data required for playback and export. A simple path preview is shown while it calculates.
 
 ## Toolpath Component
 
